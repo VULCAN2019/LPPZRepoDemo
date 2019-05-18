@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.story{
+    width: 87%;
+    height: 710px;
+    margin-left:13%;
+}
+
+.story-title{
+    width: 49%;
+    height: 710px;
+    display: inline-block;
+    line-height: 60px;
+}
+
+.story-title h2{
+    font-size: 32px;
+    color: #e1251b;
+    margin-top: 40px;
+}
+
+.story-title p{
+    color: #e1251b;
+    font-size: 30px;
+}
+
+.story-title img{
+    margin: 8% 0 0 10%;
+}
+
+.story-img{
+    width: 51%;
+    height: 710px;
+    background: #f7f7f7;
+    float: right;
+}
+
+.story-img img{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -115px;
+}
+
+.dream{
+    width: 87%;
+    height: 710px;
+    margin-top:100px;
+}
+
+.dream-title{
+    width: 50%;
+    height: 710px;
+    background: #f7f7f7;
+    display: inline-block;
+}
+
+.dream-content{
+    width: 40%;
+    height: 710px;
+    float: right;
+}
+
+.dream-content p{
+    font-size: 14px;
+    line-height:35px ;
+    width: 90%;
+}
+
+.dream-content2{
+    margin-top: 185px;
+}
+
+.dream-title2-1{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 130px 0 0 70px;
+}
+
+.dream-title2-2{
+    font-size: 60px;
+    color: #dbdbdb;
+    opacity: 0.2;
+    font-weight: 900;
+    position: absolute;
+    margin: -32px 0px 0px 70px;
+}
+
+.dream-title2-3{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 50px 0 0 70px;
+    line-height: 38px;
+    padding-right: 90px;
+}
+
+.dream-title2{
+    position: absolute;
+    width: 700px;
+    height: 470px;
+    background: #e2211c;
+    display: inline-block;
+    margin-left: -590px;
+    margin-top: 125px;
+}
+
+.name{
+    width: 87%;
+    height: 710px;
+    margin: 90px 0 130px 13%;
+
+}
+
+.name-title{
+    width: 50%;
+    height: 710px;
+    display: inline-block;
+}
+
+.name-title h2{
+    color: #e1251b;
+    font-size: 30px;
+    font-weight: 400;
+    margin:100px 0 0 0;
+}
+
+.name-title2{
+    font-size:65px;
+    color: #dbdbdb;
+    opacity: 0.2;
+    font-weight: 900;
+    position: absolute;
+    margin: -35px 0 0 0 ;
+}
+
+.name-title2-1{
+    font-size: 14px;
+    color: #333333;
+    margin-top: 60px;
+    padding-right: 245px;
+    line-height: 35px;
+}
+
+.name-title2-2{
+    font-size: 14px;
+    color: #333333;
+    padding-right: 245px;
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+.name-img{
+    width: 50%;
+    height: 710px;
+    background: #f7f7f7;
+    float: right;
+}
+
+.name-img img{
+    position: absolute;
+    margin: 121px 0 0 -130px;
+}

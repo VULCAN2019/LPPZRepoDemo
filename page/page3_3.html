@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全国门店</title>
+    <link rel="stylesheet" href="../css/page4%203_2%203_3.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/top_bottom.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../swiper-4.5.0/dist/css/swiper.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+</head>
+<body>
+<!--    头部导航    -->
+
+
+<header class="header">
+    <div class="header-inner">
+        <div class="header-logo"><a href="../index.html"><img src="../img/logo.svg" alt="首页" /></a></div>
+
+        <div style="clear: both;"></div>
+        <div class="header-lang">
+            <a href="#" class="header-cn">CN</a>
+            /
+            <a href="#" class="header-en">EN</a>
+        </div>
+        <div class="header-follow">Follow us
+            <div class="subMenu-aboutus5">
+                <div class="subMenu-aboutus-topline"><img src="../img/border.jpg" alt=""></div>
+                <ul class="subMenu-aboutus-list">
+                    <li><a href=""><i class="fa fa-share-alt icon-change-color" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-weibo icon-change-color" aria-hidden="true"></i></a></li>
+                    <li>
+                        <a href="" style="border-bottom:none;" class="weixin"><i class="fa fa-weixin icon-change-color" aria-hidden="true"></i>
+                            <div class="weixin-bg"><div class="weixin-image"></div></div>
+                        </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-ellipsis-v" aria-hidden="true" style="font-size:14px;"></i>
+        </div>
+        <ul class="header-nav">
+            <li  class="header-nav-intro1">
+                <a href="" class="header-nav-url">
+                    关于我们
+                </a>
+                <div class="subMenu-aboutus">
+                    <div class="subMenu-aboutus-topline"><img src="../img/border.jpg" alt=""></div>
+                    <ul class="subMenu-aboutus-list">
+                        <li><a href="">品牌介绍</a></li>
+                        <li><a href="">品牌历程</a></li>
+                        <li><a href="">品牌理念</a></li>
+                        <li><a href="">品牌故事</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li  class="header-nav-intro2">
+                <a href="" class="header-nav-url">
+                    新闻中心
+                </a>
+                <div class="subMenu-aboutus2">
+                    <div class="subMenu-aboutus-topline"><img src="../img/border.jpg" alt=""></div>
+                    <ul class="subMenu-aboutus-list">
+                        <li><a href="page2_1.html">媒体聚焦</a></li>
+                        <li><a href="page2_2.html">品牌视频</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li  class="header-nav-intro3">
+                <a href="" class="header-nav-url">
+                    零食王国
+                </a>
+                <div class="subMenu-aboutus3">
+                    <div class="subMenu-aboutus-topline"><img src="../img/border.jpg" alt=""></div>
+                    <ul class="subMenu-aboutus-list">
+                        <li><a href="">产品品类</a></li>
+                        <li><a href="page3_2.html">线上商城</a></li>
+                        <li><a href="page3_3.html">全国门店</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="page4.html" class="header-nav-url">
+                    VIP
+                </a>
+            </li>
+            <li  class="header-nav-intro4">
+                <a href="" class="header-nav-url">
+                    联系我们
+                </a>
+                <div class="subMenu-aboutus4">
+                    <div class="subMenu-aboutus-topline"><img src="../img/border.jpg" alt=""></div>
+                    <ul class="subMenu-aboutus-list">
+                        <li><a href="page5_1.html">加盟专区</a></li>
+                        <li><a href="page5_1.html#Rzone">招聘专区</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<div style="height: 80px;"></div>
+
+    <img src="../img/1.jpg" />
+    <div class="store1">
+        <h2>STORES NATIONWIDE</h2>
+        <p>全国门店</p>
+        <div class="store-title">
+            <div class="store-title1">查找离你最近的门店</div>
+            <input type="text" placeholder="国家/地区,城市..." class="store-title-input">
+            <div class="store-magnifier">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="store-zhunxin">
+                <i class="fa fa-crosshairs" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="store-map">
+            <!--引用百度地图API-->
+                <style type="text/css">
+                    html,body{margin:0;padding:0;}
+                    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+                    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+                </style>
+                <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+            <!--百度地图容器-->
+            <div style="width:100%;height:600px;border:#ccc solid 1px;" id="dituContent"></div>
+            <script type="text/javascript">
+                //创建和初始化地图函数：
+                function initMap(){
+                    createMap();//创建地图
+                    setMapEvent();//设置地图事件
+                    addMapControl();//向地图添加控件
+                }
+                //创建地图函数：
+                function createMap(){
+                    var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+                    var point = new BMap.Point(116.395645,39.929986);//定义一个中心点坐标
+                    map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+                    window.map = map;//将map变量存储在全局
+                }
+                //地图事件设置函数：
+                function setMapEvent(){
+                    map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                    map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                    map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                    map.enableKeyboard();//启用键盘上下左右键移动地图
+                }
+                //地图控件添加函数：
+                function addMapControl(){
+                    //向地图中添加缩放控件
+                    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+                    map.addControl(ctrl_nav);
+                    //向地图中添加缩略图控件
+                    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+                    map.addControl(ctrl_ove);
+                    //向地图中添加比例尺控件
+                    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+                    map.addControl(ctrl_sca);
+                }
+                initMap();//创建和初始化地图
+            </script>
+        </div>
+    </div>
+
+<!--    底部      -->
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-center">
+            <a href="" class="iconfont-list"><i class="iconfont icon-tianmaoxingxiang2"></i></a>
+            <a href="" class="iconfont-list"><i class="iconfont icon-jingdong"></i></a>
+            <a href="" class="iconfont-list"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a>
+            <a href="" class="iconfont-list"><i class="fa fa-weixin footer-weixin" aria-hidden="true">
+                <div class="weixin-qrcode"></div>
+            </i></a>
+            <a href="" class="iconfont-list"><i class="fa fa-weibo footer-weibo" aria-hidden="true">
+                <div class="weibo-qrcode"></div>
+            </i></a>
+            <ul class="footer-info">
+                <li class="footer-info-list">©2019 湖北良品铺子食品工业有限公司</li>
+                <li class="footer-info-list"><a href="">&nbsp|&nbsp鄂ICP备09021577号&nbsp|&nbsp</a></li>
+                <li class="footer-info-list"><a href=""><img src="../img/beian.png" alt="" style="margin:0 3px;width:15px;">鄂公网安备 42011202001521号</a></li>
+            </ul>
+            <div class="footer-right"><a href="">back to top<i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

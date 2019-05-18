@@ -1,0 +1,773 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    font-size:14px;
+    font-family:"Microsoft YaHei UI";
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+ul li{
+    margin:0;
+    pdding:0;
+    border:0;
+    list-style: none;
+}
+
+/*      头部      */
+
+.header{
+    font-size:16px!important;
+    width:100%;
+    height:80px;
+    background-color:white;
+    border-bottom:1px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.1);
+    z-index:999;
+    position: fixed;
+}
+.header-inner{
+    width:72%;
+    height:80px;
+    margin:0 auto;
+
+}
+.header-logo {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    line-height:100px;
+}
+.header-nav{
+    display: table;
+    margin:0 auto;
+
+}
+.header-nav li{
+    float:left;
+    margin:auto 36px;
+}
+.header-nav-url{
+    width:auto;
+    height:80px;
+    display: block;
+    color: rgb(225,37,27);
+    line-height:80px;
+}
+.header-lang{
+    position: absolute;
+    right:180px;
+    top:32px;
+}
+.header-cn{
+    color:rgb(225,37,27);
+}
+.header-en{
+    color:rgb(160,162,163);
+    transition: all 0.3s;
+}
+.header-en:hover{
+    color:rgb(225,37,27);
+
+}
+.header-follow{
+    position: absolute;
+    right:60px;
+    top:32px;
+    font-size:12px;
+    color:rgb(160,162,163);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header-follow:hover{
+    color:rgb(225,37,27);
+}
+.fa-ellipsis-v{
+    padding-left:10px;
+}
+
+/*  关注我们列表  */
+
+.icon-change-color{
+    transition: all 0.3s;
+}
+.subMenu-aboutus-list a:hover> .icon-change-color{
+    color:rgb(225,37,27);
+
+    font-size:20px;
+}
+.subMenu-aboutus-list li a:hover{
+    color:rgb(225,37,27);
+}
+.weixin-image{
+    background-image: url("../img/qrcode_weixin.jpg");
+    background-repeat: no-repeat;
+    background-size:100px;
+    height:0px;
+    transition: all 0.5s;
+}
+.weixin-bg{
+    position: relative;
+    left:-5px;
+    background-color:white;
+    width:100px;
+    height:0px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    transition: all 0.5s;
+}
+.weixin:hover  .weixin-image{
+    height:100px;
+}
+.weixin:hover .weixin-bg{
+    height:100px;
+}
+
+
+
+.subMenu-aboutus5{
+    position: absolute;
+    background-color:white;
+    width:100px;
+    height:120px;
+    top:41px;
+    left:-12px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-follow:hover >.subMenu-aboutus5{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+    transition: all 0.5s;
+}
+
+/*  关于我们列表  */
+
+.subMenu-aboutus{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:160px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro1:hover >  .subMenu-aboutus{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+/*  新闻中心列表  */
+
+.subMenu-aboutus2{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:80px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro2:hover  .subMenu-aboutus2{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+/*  零食王国列表  */
+
+.subMenu-aboutus3{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:120px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro3:hover  .subMenu-aboutus3{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+/*  联系我们列表  */
+
+.subMenu-aboutus4{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:80px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro4:hover  .subMenu-aboutus4{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+
+/*      banner      */
+
+
+.banner-one{
+    width:100%;
+    background-image: url("../img/banner01.jpg");
+    height:450px;
+}
+
+
+/*      content-one     */
+
+
+.content-first{
+    width:100%;
+    height: 900px;
+    position: relative;
+    margin-top:80px;
+}
+.content-first-center{
+    position: absolute;
+    left:13%;
+    right:13%;
+    height:100%;
+}
+.content-first-title{
+    width:100%;
+}
+.content-first-title h1:nth-child(1){
+    line-height:100px;
+    font-size:30px;
+    color:rgb(225,37,27);
+}
+.content-first-title h1:nth-child(2){
+    font-weight: normal;
+    font-size:30px;
+    color:rgb(225,37,27);
+}
+.content-first-img{
+    width:100%;
+    height:700px;
+    position: absolute;
+    bottom:0;
+    color:gray;
+}
+
+
+/*      左边背景       */
+
+
+.content-first-img-left{
+    position: relative;
+    background-image: url("../img/ln01.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width:48%;
+    height:700px;
+    left:0;
+    display: inline-block;
+    overflow: hidden;
+    transition: color 0.1s;
+    margin-right:3.5%;
+}
+.content-first-img-right{
+    position: relative;
+    background-image: url("../img/ln02.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width:48%;
+    height:700px;
+    right:-53px;
+    display: inline-block;
+    overflow: hidden;
+}
+.content-first-img-left-center{
+    position: absolute;
+    left:50px;
+    top:50px;
+    width:350px;
+    height:350px;
+    background-color: rgba(250, 250, 250, 0.8);
+    transition: all 0.3s;
+}
+.content-first-img-right-center{
+    position: absolute;
+    left:50px;
+    top:50px;
+    width:350px;
+    height:350px;
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+
+/*      左边文字      */
+
+
+.content-first-img-left-center h1{
+    font-size:26px;
+    line-height:40px;
+    margin-left:25px;
+}
+.content-first-img-left-center h1:nth-child(4){
+    font-weight: normal;
+    font-size:24px;
+}
+.content-first-img-left-center h6{
+    font-weight: normal;
+    margin-left:25px;
+    line-height:40px;
+}
+i.fa-star-o{
+    font-size:70px;
+    line-height:150px;
+    margin-left:25px;
+}
+
+.content-first-img-right-center h1{
+    font-size:26px;
+    line-height:40px;
+    margin-left:25px;
+}
+.content-first-img-right-center h1:nth-child(4){
+    font-weight: normal;
+    font-size:24px;
+}
+.content-first-img-right-center h6{
+    font-weight: normal;
+    margin-left:25px;
+    line-height:40px;
+}
+i.fa-paper-plane-o{
+    font-size:50px;
+    line-height:150px;
+    margin-left:25px;
+}
+
+
+/*      背景图片缩放      */
+
+
+.content-first-img-left img{
+    transition: all 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.content-first-img-left:hover .content-first-img-left-img{
+    transform: scale(1.05);
+}
+.content-first-img-right img{
+    transition: all 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.content-first-img-right:hover .content-first-img-left-img{
+    transform: scale(1.05);
+}
+
+
+/*      字体变色        */
+
+
+.content-first-img-left:hover{
+    color:white;
+}
+
+
+/*          中间背景        */
+
+.content-first-img-left-center img{
+    position: absolute;
+    width:80px;
+    height:50px;
+    top:-29px;
+    right:0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.content-first-img-left:hover .content-first-img-left-center{
+    background-color:rgb(225,37,27);
+
+}
+.content-first-img-left:hover .content-first-img-left-center img{
+    opacity: 1;
+}
+
+
+
+
+/*          右边背景          */
+
+
+
+
+.content-first-img-right{
+    position: relative;
+    background-image: url("../img/ln02.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width:48%;
+    height:700px;
+    left:0;
+    display: inline-block;
+    overflow: hidden;
+    transition: color 0.1s;
+}
+
+.content-first-img-right-center{
+    position: absolute;
+    left:50px;
+    top:50px;
+    width:350px;
+    height:350px;
+    background-color: rgba(250, 250, 250, 0.8);
+    transition: all 0.3s;
+}
+
+
+/*      右边文字      */
+
+
+.content-first-img-right-center h1{
+    font-size:26px;
+    line-height:40px;
+    margin-left:25px;
+}
+.content-first-img-right-center h1:nth-child(4){
+    font-weight: normal;
+    font-size:24px;
+}
+.content-first-img-right-center h6{
+    font-weight: normal;
+    margin-left:25px;
+    line-height:40px;
+}
+
+
+i.fa-paper-plane-o{
+    font-size:50px;
+    line-height:150px;
+    margin-left:25px;
+}
+
+
+/*      背景图片缩放      */
+
+
+.content-first-img-right img{
+    transition: all 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.content-first-img-right:hover .content-first-img-right-img{
+    transform: scale(1.05);
+}
+.content-first-img-right img{
+    transition: all 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.content-first-img-right:hover .content-first-img-right-img{
+    transform: scale(1.05);
+}
+
+
+/*      字体变色        */
+
+
+.content-first-img-right:hover{
+    color:white;
+}
+
+
+/*          中间背景        */
+
+.content-first-img-right-center img{
+    position: absolute;
+    width:80px;
+    height:50px;
+    top:-25px;
+    right:0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.content-first-img-right:hover .content-first-img-right-center{
+    background-color:rgb(225,37,27);
+
+}
+.content-first-img-right:hover .content-first-img-right-center img{
+    opacity: 1;
+}
+
+.test {
+    width: 74%;
+    height: 1200px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.pre {
+    width: 100%;
+    height: 370px;
+}
+
+.pre-list {
+    width: 23%;
+    height: 350px;
+    background: rgb(242,242,242);
+    float: left;
+    margin-left: 2.6%;
+    color: rgb(128,128,128);
+    position: relative;
+    transition: all 0.2s;
+    z-index: 100;
+}
+
+.pre-list>div:nth-child(1) {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.list-top {
+    width: 100%;
+    height: 100px;
+}
+
+.list-top>div {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.list-top img {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+
+.list-bottom {
+    width: 100%;
+    height: 220px;
+}
+
+.list-bottom>div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-bottom>div:nth-child(1) {
+    height: 98px;
+}
+
+.list-bottom-title {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.list-bottom-title-min{
+    margin: 5px auto;
+    font-size: 22px;
+}
+
+.list-content {
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.list-hidden-content {
+    display: none;
+}
+
+.list-hidden-content p{
+    line-height: 25px;
+}
+
+.next {
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.next-list {
+    width: 23%;
+    height: 350px;
+    background: rgb(242,242,242);
+    float: left;
+    margin-left: 2.6%;
+    color: rgb(128,128,128);
+    position: relative;
+    transition: all 0.2s;
+    z-index: 2;
+}
+
+.next-list>div:nth-child(1) {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}

@@ -1,0 +1,491 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+ul li{
+    margin:0;
+    apdding:0;
+    border:0;
+    list-style: none;
+}
+
+/*      头部      */
+
+.header{
+    width:100%;
+    height:80px;
+    background-color:white;
+    border-bottom:1px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.1);
+    z-index:999;
+    position: fixed;
+}
+.header-inner{
+    width:72%;
+    height:80px;
+    margin:0 auto;
+
+}
+.header-logo {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    line-height:100px;
+}
+.header-nav{
+    display: table;
+    margin:0 auto;
+
+}
+.header-nav li{
+    float:left;
+    margin:auto 36px;
+}
+.header-nav-url{
+    width:auto;
+    height:80px;
+    display: block;
+    color: rgb(225,37,27);
+    line-height:80px;
+}
+.header-lang{
+    position: absolute;
+    right:180px;
+    top:32px;
+}
+.header-cn{
+    color:rgb(225,37,27);
+}
+.header-en{
+    color:rgb(160,162,163);
+    transition: all 0.3s;
+}
+.header-en:hover{
+    color:rgb(225,37,27);
+
+}
+.header-follow{
+    position: absolute;
+    right:60px;
+    top:32px;
+    font-size:12px;
+    color:rgb(160,162,163);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.header-follow:hover{
+    color:rgb(225,37,27);
+}
+.fa-ellipsis-v{
+    padding-left:10px;
+}
+
+/*  关注我们列表  */
+
+.icon-change-color{
+    transition: all 0.3s;
+}
+.subMenu-aboutus-list a:hover> .icon-change-color{
+    color:rgb(225,37,27);
+
+    font-size:20px;
+}
+.subMenu-aboutus-list li a:hover{
+    color:rgb(225,37,27);
+}
+.weixin-image{
+    background-image: url("../img/qrcode_weixin.jpg");
+    background-repeat: no-repeat;
+    background-size:100px;
+    height:0px;
+    transition: all 0.5s;
+}
+.weixin-bg{
+    position: relative;
+    left:-5px;
+    background-color:white;
+    width:100px;
+    height:0px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    transition: all 0.5s;
+}
+.weixin:hover  .weixin-image{
+    height:100px;
+}
+.weixin:hover .weixin-bg{
+    height:100px;
+}
+
+
+
+.subMenu-aboutus5{
+    position: absolute;
+    background-color:white;
+    width:100px;
+    height:120px;
+    top:41px;
+    left:-12px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-follow:hover >.subMenu-aboutus5{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+    transition: all 0.5s;
+}
+
+/*  关于我们列表  */
+
+.subMenu-aboutus{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:160px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro1:hover >  .subMenu-aboutus{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+/*  新闻中心列表  */
+
+.subMenu-aboutus2{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:80px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro2:hover  .subMenu-aboutus2{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+/*  零食王国列表  */
+
+.subMenu-aboutus3{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:120px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro3:hover  .subMenu-aboutus3{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+/*  联系我们列表  */
+
+.subMenu-aboutus4{
+    position: relative;
+    background-color:white;
+    width:100px;
+    height:80px;
+    top:-12px;
+    left:-20px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index:999;
+}
+.header-nav-intro4:hover  .subMenu-aboutus4{
+    transform: translateY(10px);
+    opacity: 1;
+}
+.subMenu-aboutus-topline{
+    position: relative;
+    top:-12px;
+}
+.subMenu-aboutus-topline img{
+    width:100px;
+}
+.subMenu-aboutus-list{
+    position: relative;
+    top:-20px;
+    left:5px;
+}
+.subMenu-aboutus-list li{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    line-height:40px;
+    text-align: center;
+    margin:0 auto;
+}
+.subMenu-aboutus-list li a{
+    border-bottom:1px solid #f2f2f2;
+    width:90%;
+    display: block;
+    margin-top:2px;
+    color:gray;
+}
+
+
+/*      底部      */
+
+.footer {
+    width: 100%;
+    background-color: rgb(0, 41, 87);
+    display: inline-block;
+}
+.footer-inner{
+    width:80%;
+    height:80px;
+
+    margin:0 auto;
+}
+.footer-center{
+    display: inline-block;
+    height:30px;
+    width:100%;
+    background-color:rgb(0,41,87);
+    margin-top:25px;
+}
+.iconfont-list{
+    margin-right:15px;
+    line-height:30px;
+}
+.iconfont-list i{
+    transition: all 0.3s;
+}
+i.icon-tianmaoxingxiang2{
+
+    color:white;
+    position: relative;
+    top:-6px;
+}
+i.icon-jingdong{
+
+    color:white;
+    font-size:35px;
+}
+i.fa-share-alt-square{
+    color:white;
+    font-size:20px;
+    position: relative;
+    top:-5px;
+}
+i.footer-weixin{
+    color:white;
+    font-size:20px;
+    position: relative;
+    top:-5px;
+}
+i.footer-weibo{
+    color:white;
+    font-size:20px;
+    position: relative;
+    top:-5px;
+}
+.footer-info{
+    display: inline-block;
+    font-size:12px;
+    line-height:30px;
+    margin-left:17%;
+    position: relative;
+    top:5px;
+}
+
+.footer-info-list a:hover{
+    color:gray;
+}
+.footer-info-list{
+    float:left;
+    color:white;
+}
+.footer-info-list a{
+    float:left;
+    color:white;
+    transition: all 0.3s;
+}
+.footer-right{
+    float:right;
+
+    position: relative;
+    top:10px;
+
+}
+.footer-right a{
+    color:white;
+    transition: all 0.5s;
+}
+i.fa-chevron-up{
+    margin-left:30px;
+}
+.footer-right a:hover{
+    color:rgb(133,153,136);
+}
+.iconfont-list:hover> i{
+    color:gray;
+}
+
+.weixin-qrcode{
+    background-image: url("../img/qrcode_weixin.jpg");
+    background-size:100%;
+    width:1px;
+    height:1px;
+    position: absolute;
+    top:-18px;
+    left:10px;
+    transition: all 0.2s;
+    transform-origin: bottom center;
+    opacity: 0;
+    z-index: 999;
+}
+.footer-weixin:hover > .weixin-qrcode{
+    opacity: 1;
+    transform: scale(100);
+    bottom:50px;
+}
+.weibo-qrcode{
+    background-image: url("../img/qrcode_sina.jpg");
+    background-size:100%;
+    width:1px;
+    height:1px;
+    position: absolute;
+    top:-18px;
+    left:10px;
+    transition: all 0.2s;
+    transform-origin: bottom center;
+    opacity: 0;
+    z-index: 999;
+}
+.footer-weibo:hover > .weibo-qrcode{
+    opacity: 1;
+    transform: scale(100);
+    bottom:50px;
+}

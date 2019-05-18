@@ -1,0 +1,717 @@
+#xinwen{width: 100%;
+      height: 100%;}
+
+
+
+/*媒体聚焦标题部分*/	  
+#xinwen .xinwen-title{ width: 100%;
+              height: 100px;
+			  margin: 0 auto;
+			  /*background: purple;*/
+			  text-align: center;
+			  color:#e1251b;
+			  margin-top: 100px;}	  
+			  
+#xinwen .xinwen-title >h2{ font: 900 34px/1 "AvenirLTStd";}	
+
+#xinwen .xinwen-title >p{ margin-top: 1em;
+                          font-size: 30px;
+                          letter-spacing: .06em;}
+						  
+						  
+						  
+/*媒体聚焦框框部分*/						  
+
+/*#xinwen .kuang{width:1400px ;
+               height: 500px;
+			   margin: 0 auto;}		*/				  
+
+#xinwen ul{width:80%;
+           height: 3500px;
+		   margin: 100px 9.5%;
+		   text-align: center;}		
+
+#xinwen ul>li{/*border: red solid 2px;*/
+			 width: 22%;
+			 height: 455px;
+			 list-style: none;
+			 display: inline-block;
+			 overflow: hidden;
+			 position: relative;
+			 margin-top: 20px;
+			 margin-left: 30px;
+			 }
+
+
+		
+#xinwen .abq{                         /*a 标签链接*/
+				background: #f2f2f2;
+				 }
+
+#xinwen .beijing{ width: 318px;        /*红色背景图片外的div*/
+                  height: 398px;
+				 margin-top: 20px;
+				  position: absolute;
+				  background: #f2f2f2;}
+				  
+#xinwen .beijing .beijing-img{display: block;  /*红色背景图片外的div*/
+                     width: 100%;
+					 margin-top: -14px;
+					 opacity: 0;}
+					 
+#xinwen .date{width:220px;                    /*时间部分div*/
+              height: 30px; 
+			  margin: 70px auto 0; 
+			  /*background: black; */
+			  position: relative;
+			  color: gray;
+			  text-align: left;}
+
+#xinwen .date span{ position: absolute; }	                       		
+
+#xinwen .date .span1{font: 700 30px/1 "AvenirLTStd";
+}
+#xinwen .date .span2{font-size: 14px;
+                     right: 0;
+					 bottom: 0;
+					 }
+#xinwen .abq h3{position: absolute;          /*良品铺子的局部战役用的h3*/ 
+                width: 200px;
+				margin-left: 58px;
+				color: gray;
+				font-size: 14px;
+				font-weight: 300;
+				text-align: left;
+				margin-top: 10px;}
+				
+				
+
+#xinwen .abq .img-box{position: absolute; margin-top: 165px;overflow: hidden;}     /*前景图片外div*/
+
+.img-box img{transition: all 1s;}                              /*前景图片*/
+
+
+
+#xinwen ul>li:hover .beijing-img{opacity:1;                   /*鼠标滑过li标签时红色背景图片显示，时间为1秒*/
+                            transition: all 1s;}
+
+#xinwen ul>li:hover .img-box img{transform: scale(1.1);       /*鼠标滑过li标签时前景图片缩放1.1倍，时间为1秒*/
+                            }		
+												
+#xinwen ul>li:hover .date{color: #fff;}						 /*鼠标滑过li标签时日期的字体颜色变白*/						
+#xinwen ul>li:hover .abq h3{color: #fff;}					 /*鼠标滑过li标签时良品铺子的局部战役用的h3的字体颜色变白*/								
+												
+												
+												
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*品牌视频标题部分*/	  
+#video .video-title{ width: 100%;
+              height: 100px;
+			  margin: 0 auto;
+			  /*background: purple;*/
+			  text-align: center;
+			  color:#e1251b;
+			  margin-top: 100px;}	  
+			  
+#video .video-title >h2{ font: 900 34px/1 "AvenirLTStd";}	
+
+#video .video-title >p{ margin-top: 1em;
+                          font-size: 30px;
+                          letter-spacing: .06em;}	
+												  
+#video .pinpainav{width: 75%; 
+                  height: 786px; 
+				  margin: 100px auto 0; 
+				  
+				  text-align: center;}												  
+
+#video .pinpainav img{ display: block; 
+                       }												  
+												  
+#video .pinpainav .ppul{width: 97.2%; height: 35px;  margin: 20px auto; }	
+#video .pinpainav .ppul a{ text-decoration: none;
+                           color: gray;}											  
+#video .pinpainav .ppul li{list-style: none; float:left; margin: 0 150px 0 50px; color: gray; cursor: pointer;}	
+	
+#video .pinpainav .ppul	.first-li{list-style: none; float: left; margin: 0 150px 0 -20px;}	
+#video .pinpainav .ppul	.last-li{list-style: none; float: left; margin: 0 0 0 42px; color: gray; }										  
+										  
+#video .pinpainav .ppul a:hover{ color:#e1251b;}												  
+
+
+
+
+/*视频列表部分*/		
+								  
+#video-list{ /*background:pink;*/               /* 总视频列表外包div*/
+             width: 75%;
+			 height: 700px;
+			 margin:100px auto 0}	
+										   
+										   
+#video-list h3{ color:#e1251b;                 /* 总视频列表外包大标题*/
+                border-bottom:#e1251b solid 1px ;
+				width: 125px;}
+														   
+														   
+#video-list .shipinul{width: 100%;              /* 总视频列表内包ul标签*/
+                      height: 680px;
+					  margin-top: 30px;
+					  /*background: blue;*/}
+					  
+#video-list .shipinul .li1{ list-style: none;
+                          width: 50%;
+						  float: left;}	
+											
+#video-list .shipinul li{ cursor: pointer;}		/* 鼠标滑过所有视频li标签的时候变成手型*/								
+										   
+										   
+#video-list .shipinul .img-box{ position: relative; }
+										   
+#video-list .shipinul .img-box .imgname{ width: 98%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box .imgname{ position: absolute; 
+                                         background: url(../img/img_news/video_bg.png);}
+										 
+																				
+#video-list .shipinul .img-box .imgname .imgtitle{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box .huibj{background: black;
+    width: 100%;
+    height: 101.5%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box:hover .huibj{opacity: 0;}													   
+
+#video-list .shipinul .img-box .imgname { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box:hover .imgname {height: 75px; }
+#video-list .shipinul .img-box .imgname.bjt{ position: absolute; width: 100%;}																														   
+																														   
+#video-list .shipinul .img-box .imgname .imgtitle p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 30px;
+                                                    position: absolute; 
+													font-size: 13px; 
+													margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box .imgname .imgtitle h4{  margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box .imgname .imgtitle span{position: absolute; right: 5%; top: 30px;}	
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+										  
+#video-list .shipinul .li2{ list-style: none;               /* 第一个总视频模块里的大窗口视频快li 复制的li2(小的)*/
+                          width: 24%;
+						  height: 25%;
+						  display: inline-block;
+						 margin-left: 11px;
+						 }											
+										   
+										   
+#video-list .shipinul .img-box2{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box2 .imgname2{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box2 .imgname2{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box2 .imgname2 .imgtitle2{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box2 .huibj2{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box2:hover .huibj2{opacity: 0;}													   
+
+#video-list .shipinul .img-box2 .imgname2 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box2:hover .imgname2 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box2 .imgname2 .imgtitle2 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px; 
+													margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box2 .imgname2 .imgtitle2 h4{ 
+                                                         margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box2 .imgname2 .imgtitle2 span{position: absolute; right: 5%; top: 25px;}	
+										  										
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+																				
+										  
+#video-list .shipinul .li3{ list-style: none;
+                          width: 24%;
+						  height: 25%;
+						  display: inline-block;
+						  margin-left: 10px;
+						 
+						  
+						 }											
+										   
+										   
+#video-list .shipinul .img-box3{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box3 .imgname3{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box3 .imgname3{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box3 .imgname3 .imgtitle3{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box3 .huibj3{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box3:hover .huibj3{opacity: 0;}													   
+
+#video-list .shipinul .img-box3 .imgname3 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box3:hover .imgname3 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box3 .imgname3 .imgtitle3 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px; 
+													margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box3 .imgname3 .imgtitle3 h4{ margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box3 .imgname3 .imgtitle3 span{position: absolute; right: 5%; top: 25px;}
+											  										  																
+																																					
+																																					
+		
+		
+		
+																																					
+																																					
+																				
+																				
+										  
+#video-list .shipinul .li4{ list-style: none;
+                          width: 24%;
+                         height: 25%;
+                         display: inline-block;
+                         margin-left: 10px;
+						 margin-top: 19px;
+						 }											
+										   
+										   
+#video-list .shipinul .img-box4{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box4 .imgname4{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box4 .imgname4{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box4 .imgname4 .imgtitle4{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box4 .huibj4{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box4:hover .huibj4{opacity: 0;}													   
+
+#video-list .shipinul .img-box4 .imgname4 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box4:hover .imgname4 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box4 .imgname4 .imgtitle4 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px;
+													 margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box4 .imgname4 .imgtitle4 h4{ margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box4 .imgname4 .imgtitle4 span{position: absolute; right: 5%; top: 25px;}
+											  										  																
+																																																															
+																																					
+
+
+
+
+
+/*55555555555*/
+
+
+
+																																				
+																				
+																				
+										  
+#video-list .shipinul .li5{ list-style: none;
+                          width: 24%;
+                          height: 25%;
+                          display: inline-block;
+                          margin-left: 10px;
+                          margin-top: 19px;
+						 
+						 }											
+										   
+										   
+#video-list .shipinul .img-box5{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box5 .imgname5{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box5 .imgname5{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box5 .imgname5 .imgtitle5{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box5 .huibj5{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box5:hover .huibj5{opacity: 0;}													   
+
+#video-list .shipinul .img-box5 .imgname5 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box5:hover .imgname5 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box5 .imgname5 .imgtitle5 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px;
+													 margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box5 .imgname5 .imgtitle5 h4{ margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box5 .imgname5 .imgtitle5 span{position: absolute; right: 5%; top: 25px;}
+
+
+																																					
+																																					
+	
+	
+	
+	
+/*666666666666666*/																																					
+																																					
+#video-list .shipinul .li6{ list-style: none;
+                          width: 24%;
+                          height: 25%;
+                          display: inline-block;
+                         
+                          margin-top: 19px;
+                          
+						 }											
+										   
+										   
+#video-list .shipinul .img-box6{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box6 .imgname6{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box6 .imgname6{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box6 .imgname6 .imgtitle6{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box6 .huibj6{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box6:hover .huibj6{opacity: 0;}													   
+
+#video-list .shipinul .img-box6 .imgname6 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box6:hover .imgname6 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box6 .imgname6 .imgtitle6 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px; 
+													margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box6 .imgname6 .imgtitle6 h4{ margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box6 .imgname6 .imgtitle6 span{position: absolute; right: 5%; top: 25px;}	
+										  																																															
+																																				
+																																									
+																				
+	
+	
+	
+/*7777777777777777777777777777*/	
+
+
+										  
+#video-list .shipinul .li7{ list-style: none;
+                         width: 24%;
+                         height: 25%;
+                         display: inline-block;
+                         margin-left: 23px;                         
+                         margin-top: 19px;
+						 }											
+										   
+										   
+#video-list .shipinul .img-box7{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box7 .imgname7{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box7 .imgname7{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box7 .imgname7 .imgtitle7{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box7 .huibj7{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box7:hover .huibj7{opacity: 0;}													   
+
+#video-list .shipinul .img-box7 .imgname7 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box7:hover .imgname7 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box7 .imgname7 .imgtitle7 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px; 
+													margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box7 .imgname7 .imgtitle7 h4{ margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box7 .imgname7 .imgtitle7 span{position: absolute; right: 5%; top: 25px;}	
+																				
+																				
+																				
+	
+/*888888888888888888888*/	
+
+
+										  
+#video-list .shipinul .li8{ list-style: none;
+                         width: 24%;
+                         height: 25%;
+                         display: inline-block;
+                         margin-left: 8px;                         
+                         margin-top: 19px;
+						 }											
+										   
+										   
+#video-list .shipinul .img-box8{margin-left: 0px; position: relative; }
+										   
+#video-list .shipinul .img-box8 .imgname8{ width: 95%;
+                                         height: 75px;
+										 position: absolute;
+                                         bottom: 0px;
+										 }	
+#video-list .shipinul .img-box8 .imgname8{ position: absolute; 
+                                         background: url(../img/img_news/video_bg2.png);}
+										 
+																				
+#video-list .shipinul .img-box8 .imgname8 .imgtitle8{ width: 100%; 
+                                                   height: 60px; 
+												   margin: 0; 
+												   padding: 0; 
+												   /*background: pink;*/
+												   position: absolute;
+												   bottom: 0px;
+												   color: #fff;
+												   z-index: 2;
+												   }	
+													   
+#video-list .shipinul .img-box8 .huibj8{background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    opacity: 0.4;
+	transition: all 0.3s;}	
+													   
+#video-list .shipinul .img-box8:hover .huibj8{opacity: 0;}													   
+
+#video-list .shipinul .img-box8 .imgname8 { width: 100%; height: 0px; display: block;transition: all 0.3s;}
+#video-list .shipinul .img-box8:hover .imgname8 {height: 75px; }
+																													   
+																														   
+#video-list .shipinul .img-box8 .imgname8 .imgtitle8 p{display: block; 
+                                                    margin: 0; 
+													padding: 0; 
+													top: 25px;
+                                                    position: absolute; 
+													font-size: 13px; 
+													margin-left: 20px;}	
+																				
+#video-list .shipinul .img-box8 .imgname8 .imgtitle8 h4{ margin-left: 20px;}																				
+																																					   
+#video-list .shipinul .img-box8 .imgname8 .imgtitle8 span{position: absolute; right: 5%; top: 25px;}	
+																																								
+																				  

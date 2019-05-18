@@ -1,0 +1,870 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#join-content1{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#join-content1 > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    color: rgb(225, 37, 27);
+    height: 310px;
+}
+
+#join-content1 > div:nth-child(2) {
+    width: 100%;
+    height: 300px;
+    text-align: left;
+}
+
+.title-top{
+    width: 100%;
+    height: 50px;
+    font-size: 32px;
+    padding: 100px 0 20px 0;
+}
+
+.title-bottom{
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.Introduction{
+    width: 66%;
+    background: rgb(247, 247, 247);
+    height: 240px;
+    float: left;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.Introduction h2 {
+    width: 80%;
+    margin: 30px auto 20px auto;
+    font-weight: 400;
+}
+
+.Introduction h2 div {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgb(225, 37, 27);
+    transition: all 0.4s;
+}
+
+.Introduction > div:nth-child(2) {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Introduction p:nth-child(2) {
+    margin-left: 10%;
+}
+
+.Introduction p{
+    width: 45%;
+    float: left;
+    height: 100px;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    line-height: 25px;
+    transition: all 0.4s;
+}
+
+.Introduction img {
+    position: absolute;
+    right: 3%;
+    top: -16px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.Introduction:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(225, 37, 27);
+}
+
+.Introduction:hover p{
+    color: rgb(255, 255, 255);
+}
+
+.Introduction:hover div:nth-child(1) {
+    background: rgb(255, 255, 255);
+}
+
+.Introduction:hover img{
+    opacity: 1;
+}
+
+.idea{
+    width: 32%;
+    background: rgb(247, 247, 247);
+    float: left;
+    height: 240px;
+    margin-left: 2%;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.idea h2 {
+    width: 60%;
+    margin: 30px auto 20px auto;
+    font-weight: 400;
+}
+
+.idea h2 div {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgb(225, 37, 27);
+    transition: all 0.4s;
+}
+
+.idea div:nth-child(2) {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.idea p{
+    width: 100%;
+    float: left;
+    height: 100px;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    line-height: 25px;
+    transition: all 0.4s;
+}
+
+.idea img {
+    position: absolute;
+    right: 3%;
+    top: -16px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.idea:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(225, 37, 27);
+}
+
+.idea:hover h2 div{
+    background: rgb(255, 255, 255);
+}
+
+.idea:hover p{
+    color: rgb(255, 255, 255);
+}
+
+.idea:hover img{
+    opacity: 1;
+}
+
+#join-content2 {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#join-content2 >h2 {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    font-weight: 400;
+}
+
+#join-content2 h2 div {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgb(225, 37, 27);
+    transition: all 0.4s;
+}
+
+.powerful-list {
+    float: left;
+    width: 30%;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.powerful-list div:nth-child(1) {
+    width: 25%;
+    height: 120px;
+    float: left;
+}
+
+.powerful-list div:nth-child(2) {
+    float: left;
+    width: 70%;
+    height: 120px;
+}
+
+.powerful-list h2{
+    color: rgb(225, 37, 27);
+    font-weight: 400;
+    width: 100%;
+    font-size: 20px;
+}
+
+.powerful-list p{
+    width: 100%;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+#join-content3 {
+    background: rgb(225, 37, 27);
+    width: 100%;
+    height: 680px;
+}
+
+#join-content3 > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 210px;
+}
+
+.join-title-top{
+    width: 100%;
+    height: 50px;
+    font-size: 32px;
+    padding: 70px 0 20px 0;
+}
+
+.join-title-bottom{
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.join-ifs {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.join-ifs >h2 {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.join-ifs h2 div {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+.join-ifs-list {
+    width: 100%;
+    height: 359px;
+    margin-top: 60px;
+}
+
+.join-ifs-list div {
+    width: 15%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.join-ifs-list h3 {
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    margin: 15px 0 10px 0;
+}
+
+.join-ifs-list p {
+    margin: 0 auto;
+    width: 78%;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#join-content4{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#join-content4 >h2 {
+    width: 95%;
+    margin: 60px auto 40px auto;
+    font-weight: 400;
+}
+
+#join-content4 h2 div {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgb(225, 37, 27);
+    transition: all 0.4s;
+}
+
+.join-Process{
+    width: 100%;
+    position: relative;
+}
+
+.join-Process div{
+    width: 16.5%;
+    float: left;
+    text-align: center;
+}
+
+.join-Process span {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: rgb(128, 128, 128);
+    transition: all 0.4s;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.join-Process>div:hover span{
+    background: rgb(225, 37, 27);
+}
+
+.join-Process p{
+    color: rgb(128, 128, 128);
+    margin: 25px auto;
+    font-size: 110%;
+}
+
+.join-Process a {
+    position: absolute;
+    width: 80%;
+    height: 0;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    top: 35px;
+    left: 10%;
+    z-index: -1;
+}
+
+#join-Application {
+    background: rgb(247, 247, 247);
+    width: 100%;
+    height: 1250px;
+}
+
+#join-Application > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    color: rgb(225, 37, 27);
+    height: 240px;
+}
+
+.Application-title-top{
+    width: 100%;
+    height: 50px;
+    font-size: 32px;
+    padding: 80px 0 20px 0;
+}
+
+.Application-title-bottom{
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#listform {
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.basic-information {
+    width: 100%;
+    height: 140px;
+}
+
+.basic-information h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.basic-information-out {
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+}
+
+.basic-information-out div {
+    position: relative;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.basic-information-out label {
+    color: rgb(128, 128, 128);
+    position: absolute;
+    top: 15px;
+    left: 4%;
+}
+
+.basic-information-out span {
+    color: rgb(225, 37, 27)
+}
+
+.basic-information-out input {
+    width: 94%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 3% 0 3%;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.sex {
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sex div {
+    position: relative;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.sex label:nth-child(1) {
+    color: rgb(128, 128, 128);
+    position: absolute;
+    top: 15px;
+    left: 4%;
+}
+
+.sex input {
+    background: rgb(247, 247, 247);
+    margin: 3px 3px 0px 5px;
+    border: none 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: normal;
+    position: static;
+}
+
+.man {
+    position: absolute;
+    color: rgb(225, 37, 27);
+    left: 35%;
+    top: 15px;
+    cursor: pointer;
+}
+
+.man span {
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background: rgb(225, 37, 27);
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    top: 2px;
+}
+
+.women {
+    cursor: pointer;
+    position: absolute;
+    left: 65%;
+    top: 15px;
+}
+
+.women span {
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    border-radius: 14px;
+    background: white;
+    display: inline-block;
+    position: relative;
+}
+
+#Personal-resources {
+    width: 100%;
+    height: 100px;
+}
+
+#Personal-resources h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#Personal-resources div {
+    width: 15%;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Personal-resources label {
+    position: absolute;
+    color: rgb(128, 128, 128);
+}
+
+#Personal-resources label:hover {
+    cursor: pointer;
+}
+
+#Personal-resources span {
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    border-radius: 14px;
+    background: white;
+    display: inline-block;
+    position: relative;
+}
+
+#Specific-project {
+    width: 100%;
+    height: 200px;
+
+}
+
+#Specific-project h4 {
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0 0 5px 0;
+    margin-left: 0.5%;
+}
+
+#Specific-project textarea {
+    width: 98%;
+    padding: 0.5% 0 0.5% 1%;
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 0.5%;
+}
+
+#Investment-ability {
+    width: 100%;
+    height: 140px;
+}
+
+#Investment-ability h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ability-list {
+    width: 100%;
+}
+
+.ability-list>div {
+    width: 33.3333333%;
+    float: left;
+    position: relative;
+    margin: 20px 0;
+}
+
+.ability-list label {
+    color: rgb(128, 128, 128);
+    position: absolute;
+    top: 14px;
+    left: 2.7%;
+}
+
+.ability-list span {
+    color: rgb(225, 37, 27);
+}
+
+.ability-list img{
+    position: absolute;
+    top: 15px;
+    right: 8%;
+}
+
+.ability-list input {
+    width: 95%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 18px;
+    padding-left: 2%;
+    margin-left: 0.5%;
+}
+
+.ability-list select {
+    width: 95%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: white;
+    padding-left: 2%;
+    font-size: 16px;
+    margin-left: 0.5%;
+    color: rgb(128, 128, 128);
+    -webkit-appearance:none;
+}
+
+.ability-list select option {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
+
+#Join-Willingness {
+    width: 100%;
+    height: 210px;
+}
+
+#Join-Willingness h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Willingness-list {
+    width: 100%;
+    height: 100px;
+}
+
+.Willingness-list>div {
+    width: 33.3333333%;
+    float: left;
+    position: relative;
+    margin: 20px 0;
+}
+
+.Willingness-list label {
+    color: rgb(128, 128, 128);
+    position: absolute;
+    top: 14px;
+    left: 2.7%;
+}
+
+.Willingness-list span {
+    color: rgb(225, 37, 27);
+}
+
+.Willingness-list img{
+    position: absolute;
+    top: 15px;
+    right: 8%;
+}
+
+.Willingness-list input {
+    width: 95%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 18px;
+    padding-left: 2%;
+    margin-left: 0.5%;
+}
+
+.Willingness-list select {
+    width: 95%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: white;
+    padding-left: 2%;
+    font-size: 16px;
+    margin-left: 0.5%;
+    color: rgb(128, 128, 128);
+    -webkit-appearance:none;
+}
+
+.Willingness-list select option {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
+
+.beizhu {
+    width: 100%;
+    height: 50px;
+}
+
+.beizhu p{
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    margin-left: 0.5%;
+}
+
+.beizhu span{
+    color: rgb(225, 37, 27);
+}
+
+#submit {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#submit a {
+    display: inline-block;
+    width: 280px;
+    height: 70px;
+    background: rgb(225, 37, 27);
+    position: relative;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#submit img {
+    position: absolute;
+    top: -16px;
+    right: 5%;
+}
+
+#FAQ {
+    width: 100%;
+    height: 1500px;
+}
+
+.fa-title {
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    color: rgb(225, 37, 27);
+    margin: 100px 0 70px 0;
+}
+
+.fa-title h2 {
+    font: 900 34px/1 "AvenirLTStd";
+    margin-bottom: 30px;
+}
+
+.fa-title p {
+    font-size: 30px;
+}
+
+.list-out {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.list-out>li {
+    width: 50%;
+    list-style: none;
+    float: left;
+    margin-bottom: 80px;
+}
+
+.list-div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list-div>h3 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+}
+
+.list-div>h3>span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background: rgb(225, 37, 27);
+    transition: all 0.4s;
+    margin-right: 3%;
+}
+
+.list-li{
+    list-style: none;
+    height: 50px;
+    background: rgb(247, 247, 247);
+    line-height: 50px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.list-li:hover {
+    background: rgb(225, 37, 27)!important;
+    cursor: pointer;
+    color: rgb(247, 247, 247)!important;
+}
+
+.list-li:hover .hidden-div {
+    transition: all 0.3s;
+}
+
+.list-in-div h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list-in-div span {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 4% 0 4%;
+}
+
+.right-str {
+    float: right;
+    color: rgb(128, 128, 128);
+    font-size: 28px!important;
+    font-weight: 100!important;
+}
+
+.hidden-div {
+    width: 100%;
+    position: absolute;
+    display: none;
+    color: rgb(247, 247, 247);
+}
+
+.hidden-div span{
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    margin: 0 4% 0 4%;
+}
+
+.hidden-div p {
+    float: left;
+    width: 80%;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 12px;
+}
