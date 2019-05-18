@@ -772,5 +772,68 @@ i.fa-paper-plane-o{
     border: 1px solid red;
 }
 
+i.icon-huaban-{
+    font-size:60px;
+}
+i.icon-gongwenbao{
+    font-size:60px;
+}
+i.icon-gouwuche{
+    font-size:65px;
+}
+i.icon-fuwu{
+    font-size:60px;
+}
+i.icon-zuzhi{
+    font-size:60px;
+}
+i.icon-chengyuan{
+    font-size:60px;
+}
+i.icon-tuandui{
+    font-size:60px;
+}
+i.icon-81{
+    font-size:60px;
+}
+
+.pre-list > img{
+    position: absolute;
+    left:270px;
+    top:-21px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.pre-list:hover .gougou1{
+    opacity: 1;
+}
+.pre-list:hover .gougou2{
+    opacity: 1;
+}
+.pre-list:hover .gougou3{
+    opacity: 1;
+}
+.pre-list:hover .gougou4{
+    opacity: 1;
+}
 
 
+.next-list > img{
+    position: absolute;
+    left:270px;
+    top:-21px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.next-list:hover .gougou5{
+    opacity: 1;
+}
+.next-list:hover .gougou6{
+    opacity: 1;
+}
+.next-list:hover .gougou7{
+    opacity: 1;
+}
+.next-list:hover .gougou8{
+    opacity: 1;
+}
