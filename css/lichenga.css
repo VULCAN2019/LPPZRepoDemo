@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.int{
+    width: 75%;
+    height: 700px;
+    margin:0 auto;
+}
+
+.int-background{
+    height: 484px;
+    width: 68%;
+    background: #f7f7f7;
+    margin-top: 111px;
+    float: right;
+    display: inline-block;
+    text-align: right;
+    overflow-y: hidden;
+}
+
+.int-title{
+    margin: 151px 0px 0px 0px;
+    display: inline-block;
+    color: #e1251b;
+    font-size: 24px;
+	font: "AvenirLTStd";
+}
+
+.int-xian{
+    border: 0.5px solid #e1251b;
+    width: 10%;
+    position: absolute;
+    margin: 1.9% 0 0 19%;
+}
+
+.int-title2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.int-words{
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.int-words2{
+    margin-top: 90px;
+}
+
+.int-words p{
+    font-size: 14px;
+    color: #333;
+    margin-left: 0;
+    line-height: 26px;
+}

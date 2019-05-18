@@ -1,0 +1,101 @@
+#licheng{ width: 75%; 
+          height: 700px; 
+		  margin-top: 60px;
+		  margin: 0 auto;}
+		  
+ #licheng .lctitle{ width: 100%;
+		                     height: 95px;
+							 color: #e1251b;}
+							 
+ #licheng .lctitle h2{font: 900 34px/1 "AvenirLTStd";
+}
+
+#licheng .lctitle p{margin-top: 1em;
+                    font-size: 30px;
+                     letter-spacing: .06em; }
+							 							 
+
+
+							 							 
+#licheng .allgundong{ width: 100%;
+                      height: 390px;
+					  margin-top: 80px;}	
+							  
+											   
+#licheng .allgundong .kuang1{ width: 335px;
+                              height: 335px;
+							 border-left: #B2B2B2 solid 1px;
+							  border-bottom: #B2B2B2 solid 1px;
+							  position: relative;
+							  float: left;
+							  margin-left: 13px;
+                              margin-bottom: 13px;}							 
+							 
+							 
+#licheng .allgundong .kuang1 .yuandian1{width:20px; 
+                                        height: 20px;
+										background: #B2B2B2;
+										border-radius: 20px;
+										position: absolute;
+										left: -10px;
+										}	
+																 
+#licheng .allgundong .kuang1 .yuandian2{width:30px; 
+                                        height: 30px;
+										background:#B2B2B2;
+										border-radius: 30px;
+										position: absolute;
+										left: -14px;
+                                        bottom: -12px;
+										}																		 
+							 
+#licheng .allgundong .kuang1 .zongcont{position: relative;
+                                        top: 10px;
+                                       width: 98%;
+									   height: 330px;
+									   margin-left: 20px;
+									   }		
+															
+
+#licheng .allgundong .kuang1 .zongcont h3{margin-bottom: .5em;
+                                          font: 700 32px "AvenirLTStd";
+                                          color: gray;}	
+																							  
+#licheng .allgundong .kuang1 .zongcont:hover h3{color: red;}
+												
+															
+#licheng .allgundong .kuang1 .zongcont .imgkk{ width: 250px;
+                                               height: 166px;
+											    
+											   }	
+											   
+#licheng .allgundong .kuang1 .zongcont .imgkk .redbg{ position: relative;
+                                                      bottom: 170px;
+													  opacity: 0;
+													  transition: all 0.5s;}											   
+									   
+																									   
+#licheng .allgundong .kuang1 .zongcont:hover .imgkk .redbg{opacity: 1;
+                                                           }	
+																																			  
+																																						  
+																							   
+															
+															
+#licheng .allgundong .kuang1 .zongcont .dibt{width: 250px; 
+                                             height: 60px;
+											
+                                             min-height: 48px;
+                                             overflow: hidden;
+                                              font-size: 14px;
+                                              line-height: 22px;
+                                              color: gray;}															
+															
+#licheng .allgundong .kuang1 .zongcont .shizi{width: 250px; 
+                                             height: 20px;
+											 text-align: right;
+                                             font-size: 20px;
+                                              color: gray;}																		
+															
+							 
+							 
