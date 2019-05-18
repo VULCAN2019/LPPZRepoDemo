@@ -660,8 +660,8 @@ i.fa-paper-plane-o{
 
 .test {
     width: 74%;
-    height: 1200px;
-    margin: 20px auto;
+    height: 800px;
+    margin: 150px auto;
     position: relative;
 }
 
@@ -771,3 +771,6 @@ i.fa-paper-plane-o{
     height: 30px;
     border: 1px solid red;
 }
+
+
+
