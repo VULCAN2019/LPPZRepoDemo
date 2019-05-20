@@ -799,41 +799,22 @@ i.icon-81{
 
 .pre-list > img{
     position: absolute;
-    left:270px;
+    right: 3%;
     top:-21px;
     opacity: 0;
     transition: all 0.3s;
 }
-.pre-list:hover .gougou1{
+.pre-list:hover img{
     opacity: 1;
 }
-.pre-list:hover .gougou2{
-    opacity: 1;
-}
-.pre-list:hover .gougou3{
-    opacity: 1;
-}
-.pre-list:hover .gougou4{
-    opacity: 1;
-}
-
 
 .next-list > img{
     position: absolute;
-    left:270px;
+    right: 3%;
     top:-21px;
     opacity: 0;
     transition: all 0.3s;
 }
-.next-list:hover .gougou5{
-    opacity: 1;
-}
-.next-list:hover .gougou6{
-    opacity: 1;
-}
-.next-list:hover .gougou7{
-    opacity: 1;
-}
-.next-list:hover .gougou8{
+.next-list:hover img{
     opacity: 1;
 }

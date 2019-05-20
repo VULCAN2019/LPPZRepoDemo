@@ -427,13 +427,13 @@
     });
 
     $('.next-list').mouseenter(function () {
-        var moreheigh = $(this).find('.list-hidden-content').height();
+        var moreheight = $(this).find('.list-hidden-content').height();
         var moreheight1 = $(this).find('.list-content').height();
         $(this).css({
             background:"rgb("+225+","+37+","+27+")",
             color:"white"
         });
-        $(this).height(350+moreheigh+moreheight1-85);
+        $(this).height(350+moreheight+moreheight1-85);
         $(this).find('.list-hidden-content').css("display","block");
     });
 
